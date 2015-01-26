@@ -8,16 +8,16 @@ First download and install  [ImageMagick](http://www.imagemagick.org/). In Mac O
 
 then either use npm:
 
-    npm install color-palette
+    npm install colors-palette
 
 or clone the repo:
 
-    git clone git://github.com/cyrilis/color-palette.git
+    git clone git://github.com/cyrilis/colors-palette.git
 
 #### Usage :
 
 ```javascript
-    var colorPalette = require("colorPalette");
+    var colorPalette = require("colors-palette");
 
     colorPalette("/path/to/img", 8, function(err, colors){
 

@@ -1,7 +1,7 @@
 {
-  "name": "color-palette",
+  "name": "colors-palette",
   "version": "0.0.1",
-  "description": "Generate color palette with nodejs and ImageMagick. ",
+  "description": "Generate color palette with nodejs and ImageMagick.",
   "main": "index.js",
   "scripts": {
     "test": "node test"
