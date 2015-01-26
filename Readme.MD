@@ -87,8 +87,8 @@ or clone the repo:
 ```
 
 #### Test Image
-![Test Image](./test.jpg)
+![Test Image](https://github.com/cyrilis/color-palette/raw/master/test.jpg)
 #### Example
-![Demo](./test_demo.png)
+![Demo Image](https://github.com/cyrilis/color-palette/raw/master/test_demo.png)
 
 
