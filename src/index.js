@@ -37,7 +37,9 @@
               _ref1 = json.result;
               for (index = _j = 0, _len1 = _ref1.length; _j < _len1; index = ++_j) {
                 instance = _ref1[index];
-                json.result[index].percent = Math.round(parseInt(instance.counts) / parseInt(sum) * 10000) / 100 + "%";
+                json.result[index].counts = parseInt(instance.counts);
+                json.result[index].percentage = Math.round(parseInt(instance.counts) / parseInt(sum) * 10000) / 100;
+                json.result[index].percent = json.result[index].percentage + "%";
               }
               return json;
             } catch (_error) {

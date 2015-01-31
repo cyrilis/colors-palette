@@ -19,7 +19,9 @@ module.exports = (imgPath, number, cb, debug)->
             sum += parseInt instance.counts
           console.log sum
           for instance, index in json.result
-            json.result[index].percent = Math.round(parseInt(instance.counts) / parseInt(sum) * 10000)/100 + "%"
+            json.result[index].counts = parseInt(instance.counts)
+            json.result[index].percentage = Math.round(parseInt(instance.counts) / parseInt(sum) * 10000)/100
+            json.result[index].percent = json.result[index].percentage + "%"
           json
         catch err
           stdout
