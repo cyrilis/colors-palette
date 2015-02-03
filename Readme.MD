@@ -1,5 +1,7 @@
 ### A ImageMagick Script Can Generate Color Palettes JSON Format.
 
+[![Join the chat at https://gitter.im/cyrilis/colors-palette](https://badges.gitter.im/Join%20Chat.svg)](https://gitter.im/cyrilis/colors-palette?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)
+
 #### Install
 
 First download and install  [ImageMagick](http://www.imagemagick.org/). In Mac OS X, you can simply use [Homebrew](http://mxcl.github.io/homebrew/) and do:
